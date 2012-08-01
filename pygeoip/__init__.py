@@ -36,9 +36,9 @@ import gzip
 import codecs
 from StringIO import StringIO
 
-from . import const
-from .util import ip2long
-from .timezone import time_zone_by_country_and_region
+from pygeoip import const
+from pygeoip.util import ip2long
+from pygeoip.timezone import time_zone_by_country_and_region
 
 import six
 
